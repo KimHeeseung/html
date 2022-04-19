@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form method="POST" action="../day04/test01.html" name="frm">
+		<input type="text" name="test" id="test">
+		<button type="button" id="btn">click</button>
+	</form>
+	
+<script type="text/javascript">
+	document.getElementById('btn').onclick = function(){
+		//var test = document.getElementById('test').value;
+		//var test = document.frm.test.value;
+		
+		//alert(test);
+		document.frm.submit();
+	};
+</script>
+</body>
+</html>

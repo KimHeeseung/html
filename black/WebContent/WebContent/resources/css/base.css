@@ -1,0 +1,33 @@
+.content {
+	text-align: center;
+}
+.box {
+	display: inline-block;
+}
+.box65 {
+	display: inline-block;
+	width: 650px;
+}
+/* 칼라 */
+.blue {
+	background-color: #2196F3;
+}
+.green {
+	background-color: #4CAF50;
+}
+.pink {
+	background-color: #e91e63;
+}
+.deeporange {
+	background-color: #ff5722;
+}
+.indigo {
+	background-color: #3f51b5;
+}
+/* 가로사이즈 */
+.w50 {
+	width: 50px;
+}
+.w100 {
+	width: 100px;
+}

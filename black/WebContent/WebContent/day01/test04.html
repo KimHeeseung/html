@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tag Test</title>
+<style>
+	.red {
+		color: red; /* 내용의 문자 색상을 정의하는 속성 */
+	}
+</style>
+</head>
+<body>
+	<div>
+		<span class="red">태그연습</span>
+		<h6>여기는 h6 태그</h6><!-- 블럭태그 -->
+		<p class="red">여기는 p 태그</p><!-- 블럭태그 -->
+		<hr><!-- 블럭태그 -->
+		<span id="sp">여기는 <strong>강조 태그</strong></span><!-- 인라인태그 -->
+		<br><!-- 줄바꿈태그 -->
+		<span>여기는 <b class="red">b 태그</b></span><!-- 인라인태그 -->
+		<h2 id="hh"></h2>
+	</div>
+<script type="text/javascript">
+	var txt = document.getElementById('sp').innerHTML;
+	document.getElementById('hh').innerHTML = txt;
+</script>
+</body>
+</html>
