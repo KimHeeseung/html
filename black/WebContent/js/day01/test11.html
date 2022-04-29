@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" 
+				href="/black/resources/css/w3.css">
+<link rel="stylesheet" type="text/css" 
+				href="/black/resources/css/base.css">
+</head>
+<body>
+	<div class= "w3-content mx650 w3-margin-top">
+		<form method="get" action="test01.html" name="frm" id="frm">
+			<div>
+			<label for="id" class="w3-col m2 w3-right-align" id="lid">I D : </label>
+			<div class= "w3-col m9 pdl10">
+				<input type="text" name="id" id="id"
+					class="w3-input w3-border w3-margin-bottom">
+			</div>
+		</div>
+		<div>
+			<label for="id" class="w3-col m2 w3-right-align" id="lpw">P W : </label>
+			<div class="w3-col m9 pdl10">
+				<input type="password" name="pw" id="pw"
+					class="w3-input w3-border">
+					</div>
+			</div>
+			<div id="d1"></div>
+			
+			<input type="text" id="in01">
+			<input type="text" id="in02">
+		</form>
+		<div>
+			<div class="w3-quarter w3-button w3-purple" id="btn1">아이디읽기</div>
+			<div class="w3-quarter w3-button w3-indigo" id="btn2">비밀읽기</div>
+			<div class="w3-quarter w3-button w3-blue" id="btn3">아이디라벨읽기</div>
+			<div class="w3-quarter w3-button w3-pink" id="btn4">비번라벨읽기</div>
+		
+		</div>
+		
+	</div>
+<script type="text/javascript">
+
+	document.getElementById('btn1').onclick = function(){
+	/*	btn1 버튼이 클릭이되면 아이디가 d1태그에
+		아이디가 id인태그에 입력된 값을 체워넣어보자.	
+	*/
+	// 1. 입력된 내용읽기
+	var sid = document.getElementById('id').value; //인풋 = VALUE
+	// 2. d1 태그에 채워넣는다.
+	document.getElementById('d1').innerHTML = '<h1 style="color: blue;">'+ sid + '</h1>';
+	};
+	//비번
+	document.getElementById('btn2').onclick = function(){
+		/*	btn1 버튼이 클릭이되면 아이디가 d1태그에
+			아이디가 id인태그에 입력된 값을 체워넣어보자.	
+		*/
+		// 1. 입력된 내용읽기
+		var spw = document.getElementById('pw').value; //인풋 = VALUE
+		// 2. d1 태그에 채워넣는다.
+		document.getElementById('d1').innerHTML = '<h1 style="color: blue;">'+ spw + '</h1>';
+		};
+	
+	document.getElementById('btn3').onclick = function(){
+		// 1. 라벨 읽고
+		var str = document.getElementById('lid').innerHTML; // 일반태그 = INNER 
+		// 2. 읽은값을 in01에 채워주고
+		document.getElementById('in01').value = str; // 얘는 읽은값을 채워주는거
+	};
+	document.getElementById('btn4').onclick = function(){
+		// 1. 라벨 읽고
+		var std = document.getElementById('lpw').innerHTML; // 일반태그 = INNER 
+		// 2. 읽은값을 in01에 채워주고
+		document.getElementById('in02').value = std; // 얘는 읽은값을 채워주는거
+	};
+</script>
+</body>
+</html>
