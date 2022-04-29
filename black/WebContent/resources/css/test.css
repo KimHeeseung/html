@@ -1,0 +1,172 @@
+.content{
+	text-align: center;
+}
+.box1{
+	display: inline-block;
+	 width: 650px;
+}
+.box2{
+	margin-bottom: 10px;
+}
+.box3{
+	display: inline-block; 
+	width: 600px;
+}
+
+.box4{
+	display: inline-block; 
+	width: 10%; 
+	text-align: right;  
+	font-size: 12pt;
+}
+
+
+.POST{	
+padding: 20px;
+border: 1px solid gray;
+ text-align: left;
+}
+
+h1{
+	background-color: #ff0066; 
+	color: white; 
+	padding: 10px; 
+	text-align: center;
+}
+
+.id{
+	display: inline-block; 
+	width: 20%; 
+	text-align: right; 
+	font-size: 14pt;
+}
+.name{
+	 display: inline-block;
+	 width: 20%;
+	 text-align: right;
+	 font-size: 14pt;
+}
+.password{
+	display: inline-block; 
+	width: 20%; 
+	text-align: right; 
+	font-size: 14pt;
+}
+.mail{
+	display: inline-block; 
+	width: 20%; 
+	text-align: right; 
+	font-size: 14pt;
+}
+
+.tel{
+	display: inline-block; 
+	width: 20%; 
+	text-align: right; 
+	font-size: 14pt;
+}
+.gen{
+	display: inline-block; 
+	width: 20%; 
+	text-align: right; 
+	font-size: 14pt;
+}
+
+.radio2{
+	display : inline-block; 
+	width: 50%; 
+	text-align: center; 
+	font-size: 15pt;
+}
+
+.p{
+	display: inline-block;
+	width: 90px;
+}
+.avt{
+	position: relative; 
+	bottom: 220px;  
+	text-size: 12pt;
+}
+
+.size{
+	display: inline-block;
+	width: 100px; 
+	height: 110px;
+}
+
+.isize{
+	height: 100px; 
+	overflow: hidden;
+}
+
+.bsize{
+	height: 10px;
+}
+.last{
+	text-align: center; 
+	padding: 10px;
+}
+
+[type="button"]{
+	display: inline-block;
+	width: 15%;
+	height: 32px;
+	cursor: pointer;
+	font-size: 10pt; 
+	background-color: skyblue; 
+	color: white;
+}
+.box2 > div{
+	text-align: right;
+}
+[type="text"]{
+	display: inline-block;
+	width: 65%;
+	margin-left: 5px;
+	padding: 5px;
+	text-align: center;
+}
+[type="text2"]{
+	display: inline-block;
+	width: 50%;
+	margin-left: 5px;
+	padding: 5px; 
+	text-align: center;
+}
+[type="password"]{
+	display: inline-block;
+	width: 65%;
+	margin-left: 5px;
+	padding: 5px;
+	text-align: center;
+}
+[type="number"]{
+	display: inline-block;
+	width: 65%;
+	margin-left: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+[type="button2"]{
+	display: inline-block; 
+	width: 28%; 
+	height: 30px; 
+	cursor: pointer;
+	background-color: #FF5722;
+}
+[type="submit"]{
+	display: inline-block; 
+	width: 28%; 
+	height: 30px; 
+	cursor: pointer;
+	background-color: #2196F3;
+}
+[type="reset"]{
+	display: inline-block; 
+	width: 28%; 
+	height: 30px; 
+	cursor: pointer;
+	background-color: #4CAF50;
+}

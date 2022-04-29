@@ -1,0 +1,78 @@
+.content{
+	text-align: center;
+}
+.box1{
+	display: inline-block;
+	 width: 650px;
+}
+.box2{
+	margin-bottom: 10px;
+	width: -50px;
+}
+.box3{
+	display: inline-block; 
+	width: 600px;
+}
+
+.box4{
+	display: inline-block; 
+	width: 10%; 
+	text-align: right;  
+	font-size: 12pt;
+}
+
+
+.POST{	
+padding: 20px;
+border: 1px solid gray;
+ text-align: right;
+ width: 610px;
+}
+
+h1{
+	background-color: green; 
+	color: white; 
+	padding: 10px; 
+	text-align: center;
+}
+
+[type="img"]{
+	align: left;
+	width: 100%;
+	height: 100px;
+}
+
+[type="submit"]{
+	display: inline-block; 
+	width: 28%; 
+	height: 30px; 
+	cursor: pointer;
+	background-color: #2196F3;
+	border: 1px solid gray;
+
+}
+[type="reset"]{
+	display: inline-block; 
+	width: 28%; 
+	height: 30px; 
+	cursor: pointer;
+	background-color: #4CAF50;
+	border: 1px solid gray;
+}
+[type="button"]{
+	display: inline-block;
+	width: 28%;
+	height: 32px;
+	cursor: pointer; 
+	background-color: skyblue; 
+	border: 1px solid gray;
+
+}
+.last{
+	text-align: center; 
+	padding: 10px;
+}
+
+img{
+	float : left;
+}
